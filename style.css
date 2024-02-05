@@ -1,0 +1,72 @@
+body {
+    box-sizing: border-box;
+}
+a {
+    color: black;
+}
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.links {
+    padding: 15px;
+    text-decoration: none;
+}
+select {
+    padding: 15px;
+    border: 0;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.hires {
+    padding: 15px;
+}
+.arrowLink {
+    border-bottom: 2px solid black;
+    text-decoration: none;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgba(241, 237, 232, 0.81);
+    height: 610px;
+}
+.mainp {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+.parag {
+    margin: 40px;
+}
+.book {
+    margin-bottom: 160px;
+}
+.soc img {
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+}
+.pic img {
+    height: 610px;
+}
+.about {
+    margin-left: 50px;
+}
+.ppl {
+    margin: 300px 70px;
+} 
+.about p {
+    font-weight: 100;
+}
+.sup {
+    font-weight: bold;
+}
+.p2 {
+    margin: 50px 0;
+}
